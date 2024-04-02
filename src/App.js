@@ -1,10 +1,9 @@
-import DemoComponent from "./DemoComponent";
-
+import DashboardLayout from "./components/DashboardLayout/DashboardLayout";
 
 function App() {
   return (
     <div>
-   <DemoComponent />
+      <DashboardLayout />
     </div>
   );
 }
