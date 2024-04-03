@@ -22,7 +22,7 @@ const SideBar = ({ openLayout, setOpenLayout, isOpen2, setIsOpen2 }) => {
     <div
       className={` ${
         openLayout ? "xl:w-[21.5%]" : "xl:w-[6%]"
-      }  fixed h-full overflow-y-auto bg-[#F3F4F6] w-[0%] transition-all duration-300 `}
+      }   h-full overflow-y-auto bg-[#F3F4F6] w-[0%] transition-all duration-300 relative`}
     >
       <div
         className={`${
@@ -296,7 +296,7 @@ const SideBar = ({ openLayout, setOpenLayout, isOpen2, setIsOpen2 }) => {
           onClick={() => {
             setOpenLayout(!openLayout);
           }}
-          className={`absolute top-[70%] p-1 border-2 border-[#0360D9] rounded-full hover:scale-110 cursor-pointer transition-all duration-200 hover:right-3 right-1 `}
+          className={`absolute top-[45%] p-1 border-2 border-[#0360D9] rounded-full hover:scale-110 cursor-pointer transition-all duration-200 hover:right-3 right-1 `}
         >
           {openLayout ? (
             <FontAwesomeIcon icon={faArrowLeft} />
