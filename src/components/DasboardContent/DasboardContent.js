@@ -10,7 +10,7 @@ const DasboardContent = () => {
       <DasboardNavContent />
       <div className="md:px-20 lg:px-32 mx-auto relative">
         <DasboardBodyContent />
-        <div className="flex flex-col gap-2 absolute bottom-0 right-0">
+        <div className="md:flex flex-col gap-2 absolute bottom-0 right-0 hidden">
           <FontAwesomeIcon className="-rotate-40" icon={faMoon} />
           <div className="relative mx-auto h-fit w-fit rounded-md bg-[#C9DAF8] py-1 px-2 hover:bg-gray-200">
             <FontAwesomeIcon icon={faQuestion} className="text-[#2167CB]" />
