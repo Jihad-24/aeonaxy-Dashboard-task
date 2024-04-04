@@ -171,7 +171,7 @@ const SideBar = ({ openLayout, setOpenLayout, isOpen2, setIsOpen2 }) => {
                 </svg>{" "}
                 <FontAwesomeIcon icon={faBook} className="px-2" /> Engineering
               </div>
-              <div className="mx-auto flex items-center justify-start w-full hover:bg-[#E1EEFF] rounded-lg px-2 py-2 text-lg mb-32">
+              <div className="mx-auto flex items-center justify-start w-full hover:bg-[#E1EEFF] rounded-lg px-2 py-2 text-lg mb-12">
                 <svg
                   className={`rotate-0
                        duration-300`}
